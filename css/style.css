@@ -1,0 +1,137 @@
+
+/* YOUR CSS STYLES */
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+@font-face {
+	font-family: "AncientMedium";
+	src: url("../fonts/AncientMedium.ttf") format("truetype");
+}
+
+.title {
+	font-family: "AncientMedium";
+	font-size: 40px;
+}
+
+.intro {
+	display: table;
+	width: 100%;
+	height: auto;
+	color: black;
+	background: url(../img/chai_malaria.jpg) no-repeat bottom center scroll;
+	background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-body {
+	padding: 100px 0;
+	display: table-cell;
+	vertical-align: middle;
+	background: rgba(221, 221, 221, 0.3);
+}
+
+#malaria {
+	font-family: "Lobster", cursive;
+	color: red;
+	font-size: 100px;
+	padding-left: 200px;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	padding: 5px;
+	width: 25%;
+	vertical-align: top;
+}
+
+.key-figure {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.content-section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top: 2px solid #ddd;
+}
+
+.viz-holder {
+	display: block;
+	margin: auto;
+}
+
+.sub-section {
+	padding-top: 20px;
+}
+
+.no-padding {
+	padding-left: 0px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+
+/* Legend */
+.legend-box {
+	fill: none;
+	stroke: #888;
+	font-size: 10px;
+}
+
+
+/* Tooltips */
+.tooltip-title {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+
+.d3-tip {
+	padding: 12px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	border-radius: 2px;
+	pointer-events: none;
+}
+
+.d3-tip:after {
+	box-sizing: border-box;
+	display: inline;
+	font-size: 10px;
+	width: 100%;
+	line-height: 1;
+	color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	pointer-events: none;
+}
+
+.d3-tip.n:after {
+	content: "\25BC";
+	margin: -3px 0 0 0;
+	top: 100%;
+	left: 0;
+	text-align: center;
+}
+
+
+/* Axis */
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+.axis text {
+	font-size: 11px;
+}
