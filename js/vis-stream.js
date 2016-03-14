@@ -63,7 +63,7 @@ yAxisGroup.append("text")
 	.attr("x", -0.5 * height)
 	.attr("y", -50)
 	.style("text-anchor", "middle")
-	.text("Funding");
+	.text("Funding (Million USD)");
 
 
 // Stack Function
